@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main proper grammer proper english
+ * main - this is the main function for this project 
+ * description -  proper grammer outcome is a piece of art
  * return 0 success
  */
 int main(void)
