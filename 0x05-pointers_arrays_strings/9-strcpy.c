@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcpy - copies the string pointed to by src, including the terminating null byte
+ * _strcpy - copies the string pointed , including the terminating null byte
  * @dest: This is destiny
  * @src: These are the copies
  *
