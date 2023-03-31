@@ -2,8 +2,8 @@
 
 /**
  *_strncat - concatenates two strings
- * @dest: input value p
- * @src: input value k
+ * @dest: input value i
+ * @src: input value c
  * Return: void
 */
 char *_strncat(char *dest, char *src);
