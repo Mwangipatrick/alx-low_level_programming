@@ -6,6 +6,7 @@
  * @src: input value c
  * Return: to resulting string 'dest'
 */
+
 char *_strncat(char *dest, char *src);
 {
 	int i, c;
