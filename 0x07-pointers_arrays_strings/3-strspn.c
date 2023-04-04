@@ -3,7 +3,7 @@
 /**
  * _strspn - function gets the length of a prefix substring
  * @s: returns bytes from initial segment
- * @accept: initial bytes contains segments 
+ * @accept: initial bytes contains segments
  * Return: Number of bytes in the intial segment of `s`
  */
 
