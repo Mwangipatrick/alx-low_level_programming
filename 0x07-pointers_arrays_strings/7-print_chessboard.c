@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_chessboard -function prints chess board
- * @a: points 8
+ * @a: points to two diagnals
  *
  * Return: 0
  */
