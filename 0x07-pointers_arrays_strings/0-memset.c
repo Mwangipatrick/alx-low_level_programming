@@ -6,17 +6,15 @@
  * @b: constant byte
  * @n: function fills the first byte
  * Return: pointer to memory area 's'
- * description :fills the first n bytes of memory area pointed by s
  */
-char *_memset(char *s, char b, unsigned int n);
+char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int count = 0;
+	unsigned int h;
 
-	while (count < n)
+	for (h = 0; h < n; h++)
 	{
-		s[count] = b;
-		count++;
+		s[h] = b;
 	}
-
 	return (s);
 }
+
