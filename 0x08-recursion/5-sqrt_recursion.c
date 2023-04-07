@@ -2,7 +2,7 @@
 /**
   *checkFunction - checks if sqrt of number exists
   *@num: number.
-  *@pSqrt: possible sqrt of number.
+  *@mSqrt: possible sqrt of number.
   *
   *Return: sqrt of number of -1 for error.
   */
