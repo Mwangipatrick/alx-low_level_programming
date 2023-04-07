@@ -6,7 +6,7 @@
   *
   *Return: sqrt of number of -1 for error.
   */
-int checkFunction(int num, int pSqrt)
+int checkFunction(int num, int mSqrt)
 {
 	if ((mSqrt * mSqrt) == num)
 	{
