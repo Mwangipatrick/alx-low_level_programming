@@ -5,9 +5,9 @@
  * main- program that prints the name of the file it was compiled from
  * Return: 0
  */
-int main(void)
+int main()
 {
-	printf("file :%s\n", _FILE_);
+	printf("File :%s\n", _FILE_);
 	return (0);
 }
 #endif
