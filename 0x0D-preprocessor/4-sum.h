@@ -1,4 +1,6 @@
-#ifndef "4-sum.h"
-#define "4-sum.h"
+#ifndef SUMS
+#define SUMS
+
 #define SUM(x, y) (x + y)
+
 #endif
