@@ -15,5 +15,3 @@ void print_name(char *name, void (*f)(char *))
 	scanf("%s\n", name);
 	printf("The user entered %s\n", name);
 }
-
-
