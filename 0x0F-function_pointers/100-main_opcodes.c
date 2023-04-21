@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 
 	for (p = 0; p < bytes; p++)
 	{
-		if p == bytes - 1)
+		if (p == bytes - 1)
 		{
 			printf("%02hhx\n", arr[p]);
 			break;
