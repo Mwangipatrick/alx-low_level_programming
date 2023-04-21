@@ -10,8 +10,8 @@
 
 void print_name(char *name, void (*f)(char *))
 {
-	char *name
-		printf("enter name: ");
-	scanf("%s\n", name);
-	printf("The user entered %s\n", name);
+	if (name == NULL || f == NULL)
+		return;
+
+	f(name);
 }
