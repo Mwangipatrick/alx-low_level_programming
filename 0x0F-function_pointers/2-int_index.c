@@ -1,8 +1,9 @@
 /**
  *int_index - search for an interger
- *@arrary:size of characters
- *@size:size of array 
- *@cmp:pointer to the function
+ *@array: size of characters
+ *@size: size of array
+ *@cmp: pointer to the function
+ *Return:  0 success
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
