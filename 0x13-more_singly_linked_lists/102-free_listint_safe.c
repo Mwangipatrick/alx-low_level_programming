@@ -1,6 +1,6 @@
 #include "lists.h"
 #include <stdio.h>
-#include <stdlib.h>
+
 
 /**
  * free_listint - function frees in a loop
