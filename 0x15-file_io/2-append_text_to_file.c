@@ -9,26 +9,29 @@
 int append_text_to_file(const char *filename, char *text_content)
 {
 	int fd;
-	ssize_t bytesW;
+	int nletters;
+	int rwr;
 
-	if (filename == NULL)
-	{
+	if (!filename)
 		return (-1);
-	}
+
 	fd = open(filename, O_WRONLY | O_APPEND);
+
 	if (fd == -1)
-	{
 		return (-1);
-	}
-	if (text_content != NULL && strlen(text_content) > 0)
+
+	if (text_content)
 	{
-		bytesW = write(fd, text_content, strlen(text_content));
-		if (bytesW == -1)
-		{
+		for (nletters = 0; text_content[nletters]; nletters++)
+			;
+
+		rwr = write(fd, text_content, nletters);
+
+		if (rwr == -1)
 			return (-1);
-			close(fd);
-		}
 	}
+
 	close(fd);
+
 	return (1);
 }
